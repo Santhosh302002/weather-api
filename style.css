@@ -1,0 +1,47 @@
+#city-input,
+#weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.banner {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 460px;
+}
+.container.dark {
+    background-color: #262626;
+}
+
+/* .toggle {
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    
+} */
+.btn {
+    /* align-items: center; */
+    margin-left: 250px;
+}
+
+
+.toggle i {
+    /* height: 100px; */
+    margin-top: 20px;
+    font-size: 2rem;
+    /* color: #777; */
+    margin-left: 1200px;
+    
+}
+.container.dark .banner{
+   color: #ddd;
+}
+.container.dark .toggle i {
+    color: #ddd;
+}
+i{
+    cursor: pointer;
+}

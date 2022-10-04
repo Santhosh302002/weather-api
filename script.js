@@ -50,9 +50,3 @@ toggle.addEventListener("click", () => {
     ? (toggle.firstElementChild.className = "far fa-moon")
     : (toggle.firstElementChild.className = "far fa-sun");
 });
-
-// if(type=="Rain")
-// {
-//   document.getElementById("type").innerText =<i class="fa-solid fa-cloud"></i>;
-// }
-
